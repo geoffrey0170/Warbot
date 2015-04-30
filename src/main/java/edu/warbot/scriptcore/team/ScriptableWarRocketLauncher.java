@@ -19,6 +19,7 @@ public abstract class ScriptableWarRocketLauncher extends WarRocketLauncherBrain
 	@Override
 	public String action() {		
 		return getScriptAgent().action();
+		
 	}	
 	
 	public void setScriptAgent(ScriptAgent script) {
