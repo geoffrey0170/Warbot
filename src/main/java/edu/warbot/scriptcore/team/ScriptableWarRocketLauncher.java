@@ -4,7 +4,7 @@ import edu.warbot.brains.brains.WarRocketLauncherBrain;
 import edu.warbot.scriptcore.scriptagent.ScriptAgent;
 
 public abstract class ScriptableWarRocketLauncher extends WarRocketLauncherBrain implements Scriptable {
-	
+
 	private ScriptAgent script;
 
 	public ScriptableWarRocketLauncher() {
@@ -29,5 +29,5 @@ public abstract class ScriptableWarRocketLauncher extends WarRocketLauncherBrain
 	public ScriptAgent getScriptAgent() {
 		return script;
 	}
-	
+
 }
